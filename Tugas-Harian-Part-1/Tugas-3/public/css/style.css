@@ -1,0 +1,45 @@
+body {
+    /*background-image: url(../img/pattern.jpg); /*membuat background secara menyeluruh*/
+    background-color: #FFF9F9;
+}
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed; /*membuat posisi fix saat scrool*/
+    left: 0px; /*mengatur kiri*/
+    right: 0px; /*mengatur kanan*/
+    top: 0px; /*mengatur atas*/
+}
+header nav {
+    background-color: #FFFFFF;
+}
+ul {
+    list-style: none; /*menghilangkan bullet*/
+}
+li {
+    display: inline; /*membuat menu sejajar*/
+    margin: 5px; /*memberi jarak*/
+}
+a {
+    text-decoration: none; /*menghilangkan garis bawah pada text*/
+}
+section {
+    background-color: white; /*background putih*/
+    margin: 100px 100px 30px 100px; /*mengatur margin atas, kanan, bawah, kiri*/
+    padding: 20px; /*mengatur elemen di dalamnya*/
+}
+section h1 {
+    text-align: left; /*membuat text di tengah*/
+}
+section article {
+    border-bottom: 2px solid;
+}
+footer {
+    background-color: #5264C7;
+    padding: 10px;
+}
+footer h5 {
+    color: white;
+    text-align: center;
+}
